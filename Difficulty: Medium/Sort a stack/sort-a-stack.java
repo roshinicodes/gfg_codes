@@ -2,20 +2,28 @@ class Solution {
     public void sortStack(Stack<Integer> st) {
         // code here
         Stack<Integer>temp=new Stack<>();
+        
         while(!st.isEmpty())
+        //repeat these steps until the original stack becomes empty
         {
-            int top=st.pop();
-            while(!temp.isEmpty() && temp.peek() < top)
-            {
-                st.push(temp.pop());
-            }
+            int curr=st.pop();
+           
+
+                while(!temp.isEmpty() && temp.peek()<curr)
+                {
+                    int s=temp.pop();
+                    st.push(s);
+                }
             
-            temp.push(top);
+            
+            temp.push(curr);
         }
+        
         
         while(!temp.isEmpty())
         {
             st.push(temp.pop());
         }
+        
     }
 }
