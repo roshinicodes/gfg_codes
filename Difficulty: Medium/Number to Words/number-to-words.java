@@ -14,7 +14,8 @@ class Solution {
     public String convertToWords(int n) {
         // code here
         
-             if (n == 0) {
+        if (n == 0)
+        {
             return "Zero";
         }
 
