@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-pairs-with-given-relation1540/1">Two Pairs with Same Product</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given an array <strong>arr[]</strong> of distinct positive integers, find if there exist two pairs of elements<strong> [a, b]</strong> and [<strong>c, d] </strong>such that the product of the first pair is equal to the product of the second pair, i.e., a * b = c * d.&nbsp; </span><span style="font-size: 18px;">All four elements a, b, c, and d must be distinct.&nbsp;</span></p>
+<p><strong style="font-size: 18px;">Examples:</strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [3, 4, 7, 1, 2, 9, 8]
+<strong>Output:</strong> true
+<strong>Explanation</strong>: The pairs [4, 2] and [1, 8] have the same product since 4 × 2 = 1 × 8 = 8.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 3, 4]
+<strong>Output:</strong> false<br></span><span style="font-size: 18px;"><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Explanation</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">: </span></span><span style="font-size: 14pt;">No two pairs of distinct elements have the same product.
+</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>4 ≤ arr.size() ≤ 10<sup>3<br></sup></span><span style="font-size: 18px;">1 ≤ arr[i] ≤ 10<sup>4</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;
